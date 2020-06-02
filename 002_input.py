@@ -1,0 +1,6 @@
+print('Who are you?')
+name = input()
+print('Hello, ' + name + '! Nice to meet you!')
+print('How old are you?')
+age = int(input())
+print('Oh, you were born in ' + str( 2020 - age) + '.')
