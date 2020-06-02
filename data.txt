@@ -1,0 +1,7 @@
+test open('data.txt', 'w')
+test open('data.txt', 'w')
+test open('data.txt', 'w')
+test open('data.txt', 'w')
+test open('data.txt', 'w')
+test open('data.txt', 'w')
+test open('data.txt', 'w')

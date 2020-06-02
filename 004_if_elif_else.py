@@ -14,3 +14,16 @@ elif 25 <= age <= 64:
     print("你是个中年人！")
 else:
     print("你是个老年人！")
+
+x = int(input('输入横坐标: '))
+y = int(input('输入纵坐标: '))
+if y >= 0:
+    if x >= 0:
+        print('输入的坐标点在第一象限。')
+    else:
+        print('输入的坐标点在第二象限。')
+else:
+    if x < 0:
+        print('输入的坐标点在第三象限。')
+    else:
+        print('输入的坐标点在第四象限。')
