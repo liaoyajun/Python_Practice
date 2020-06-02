@@ -15,5 +15,3 @@ print('\nright and wrong 的值: ', right_and_wrong)
 
 right_or_wrong = right or wrong
 print('\nright or wrong 的值: ', right_or_wrong)
-
-

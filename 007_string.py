@@ -3,12 +3,17 @@
 # 浮点数 %f 替换，保留小数位数 %.2f
 # 字符串 %s 替换
 age = 27
-print('My age is %d' % age)
+print(age, type(age))
+print('My age is %d.' % age)
 
 price = 4.2
-print('Price is %.2f' % price)
+print(price, type(price))
+print('Price is %.2f.' % price)
 
 date = 'Friday'
-print('Today is %s' % date)
+print(date, type(date))
+print('Today is %s.' % date)
 
-print('My age is %d. Today is %s.' % (age, date))
+name = 'Lily'
+score = 95
+print("%s's score is %d." % (name, score))
